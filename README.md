@@ -11,6 +11,18 @@ Summary: development library for quickly writing configurable applications and d
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/helper-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/helper-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/helper-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/helper-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/helper-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/helper-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/helper/badges/version.svg)](https://anaconda.org/conda-forge/helper)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/helper/badges/downloads.svg)](https://anaconda.org/conda-forge/helper)
+
 Installing helper
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `helper` available on your platfor
 ```
 conda search helper --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/helper-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/helper-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/helper-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/helper-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/helper-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/helper-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/helper/badges/version.svg)](https://anaconda.org/conda-forge/helper)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/helper/badges/downloads.svg)](https://anaconda.org/conda-forge/helper)
 
 
 Updating helper-feedstock
