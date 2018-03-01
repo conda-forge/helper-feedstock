@@ -1,4 +1,4 @@
-{% set version = "2.4.1" %}
+{% set version = "2.4.2" %}
 
 package:
   name: helper
@@ -7,7 +7,7 @@ package:
 source:
   fn: helper-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/h/helper/helper-{{ version }}.tar.gz
-  sha256: 4e33dde42ad4df30fb7790689f93d77252cff26a565610d03ff2e434865a53a2
+  sha256: a63d4a9255ad5071043e7e4ab8000a512627f1db958b1941b63c7d75e56ea65c
 
 build:
   number: 0
