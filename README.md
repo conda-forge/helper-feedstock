@@ -14,14 +14,15 @@ Summary: development library for quickly writing configurable applications and d
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/helper-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/helper-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/helper-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/helper-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/helper-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/helper-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/helper-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/helper-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/helper/badges/version.svg)](https://anaconda.org/conda-forge/helper)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/helper/badges/downloads.svg)](https://anaconda.org/conda-forge/helper)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-helper-green.svg)](https://anaconda.org/conda-forge/helper) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/helper.svg)](https://anaconda.org/conda-forge/helper) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/helper.svg)](https://anaconda.org/conda-forge/helper) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/helper.svg)](https://anaconda.org/conda-forge/helper) |
 
 Installing helper
 =================
