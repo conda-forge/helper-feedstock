@@ -1,4 +1,4 @@
-{% set version = "2.4.2" %}
+{% set version = "2.5.0" %}
 
 package:
   name: helper
@@ -7,12 +7,12 @@ package:
 source:
   fn: helper-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/h/helper/helper-{{ version }}.tar.gz
-  sha256: a63d4a9255ad5071043e7e4ab8000a512627f1db958b1941b63c7d75e56ea65c
+  sha256: 4af39471d25c8820f505bc5c5b1447878bdbec0781c60d73d9ffbdf5383152b4
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -32,6 +32,7 @@ test:
 about:
   home: http://helper.readthedocs.org
   license: BSD 3-clause
+  license_file: LICENSE
   summary: development library for quickly writing configurable applications and daemons
 
 extra:
