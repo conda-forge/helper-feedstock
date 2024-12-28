@@ -6,26 +6,28 @@ package:
 
 source:
   fn: helper-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/h/helper/helper-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/h/helper/helper-{{ version }}.tar.gz
   sha256: 4af39471d25c8820f505bc5c5b1447878bdbec0781c60d73d9ffbdf5383152b4
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
     - pyyaml
 
   run:
-    - python
+    - python >={{ python_min }}
     - pyyaml
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - helper
 
